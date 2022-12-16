@@ -1,4 +1,4 @@
-# SOM
+# Self Organizing Maps (SOM)
 Codes used in Atlantic decadal variability and control over NE and WAF precipitation (with SOMpy)
 
 This codes are an adaptation from the SOMpy library to produce the results in the " " article (currently in review)
