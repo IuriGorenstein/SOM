@@ -13,5 +13,4 @@ Many functions are an adaptation from other libraries, such as sompy, and may co
 
 If you are a fellow scientist or researcher, feel free to use and adapt this code. If you do, please cite us in your article.
 
-
-Iuri Gorenstein.
+ Iuri Gorenstein.
