@@ -6,8 +6,8 @@ This codes are an adaptation from the SOMpy library, used to achieve the results
 The example in Drive.py uses public data from the Cmip6 climate models to create the Self Organizing Maps feature space and its clusterization.
 The main effort from this code is to compute the percentages matrix, which semmed necessary for the Best Matching Unit correlation since the SOMpy library didn't seem to project the data in to the feature space and back to the input space to describe the climate data as desired.
 
-The code use numpy, xarray, sklearn, carotpy, matplotlib, sompy, sys, copy, pandas and time libraries
-The example data set used in the code needs xesmf, zarr, fsspec and gcsfs libraries.
+This code uses numpy, xarray, sklearn, carotpy, matplotlib, sompy, sys, copy, pandas and time libraries
+The example using the Cmip6 dataset needs xesmf, zarr, fsspec and gcsfs libraries to run. However, the functions work with any other preprocessed dataset.
 
 
 If you are a fellow scientist or researcher, feel free to use and adapt this code. If you do, please cite us in your article.
