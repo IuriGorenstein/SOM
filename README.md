@@ -9,6 +9,7 @@ The main effort from this code is to compute the percentages matrix, which semme
 This code uses numpy, xarray, sklearn, carotpy, matplotlib, sompy, sys, copy, pandas and time libraries
 The example using the Cmip6 dataset needs xesmf, zarr, fsspec and gcsfs libraries to run. However, the functions work with any other preprocessed dataset.
 
+Many functions are an adaptation from other libraries such as sompy and may contain some comments in portuguese.
 
 If you are a fellow scientist or researcher, feel free to use and adapt this code. If you do, please cite us in your article.
 
