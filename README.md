@@ -1,7 +1,7 @@
 # Self Organizing Maps (SOM)
 Repository containing code examples on how to reproduce the study of the Atlantic Ocean decadal variability and control over Northeast Brazil and West Africa precipitation using SOM (SOMpy library)
 
-This codes are an adaptation from the SOMpy library. They capture the idea behind the results achieved in the article "A 50-year cycle of sea surface temperature regulates decadal precipitation in the tropical and South Atlantic region" (Gorenstein et al., 2023). Although they are not the same codes used to produce it's figures, the article's results can be reproduced with the use of the codes hereby, and the data mentioned in the paper. This study is part of my masters degree in Physical Ocenography dissertation at Universidade de São Paulo, Brazil from 2021 to 2023.
+This code captures the idea behind the results achieved in "A 50-year cycle of sea surface temperature regulates decadal precipitation in the tropical and South Atlantic region" - Gorenstein et al., (2023). The article's results can be reproduced with the use of the codes hereby, and the data mentioned in the paper. This study is part of my masters degree in Physical Ocenography dissertation at Universidade de São Paulo, Brazil from 2021 to 2023.
 
 The example in Drive_AtlanticExample.py uses public data from the Cmip6 climate models to create the Self Organizing Maps feature space and its clusterization.
 The main effort from this code is to compute the percentages matrix, which semmed necessary for the Best Matching Unit correlation since the SOMpy library didn't seem to project the data into the feature space and back to the input space to describe the climate data as desired.
